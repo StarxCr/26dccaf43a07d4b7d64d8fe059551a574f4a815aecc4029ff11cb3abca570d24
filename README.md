@@ -1,8 +1,17 @@
 # project-the-nft-creator
-Prequirement: 
+Prequirements: 
 1. node.js
 2. yarn
-cd client -> yarn
+#
+Перед запуском клиентской части:
 
-yarn start чтобы запустить клиентскую часть
-server должен запустить сразу поскольку с добавил node_modules в репо╰（‵□′）╯
+1.cd client
+
+2.yarn
+
+yarn start чтобы запустить сервер разработчика
+#
+Запустить сервер:<br/>
+1.cd server <br/>2.npm run start <br/>
+Если использовать npm run dev, при сохранении фото на сервере, он перезапустится, что вызовет разрыв соединения с клиентом и ошибку<br/>
+server должен запуститься сразу поскольку я не убрал node_modules перед коммитом ╰（‵□′）╯
